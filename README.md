@@ -404,7 +404,7 @@ If you believe in reducing industrial energy waste through AI — show your supp
 <p align="center">
   <a href="https://github.com/WimLee115/ai-idle-platform/stargazers"><img alt="Star this repo" src="https://img.shields.io/badge/Star_this_project-%E2%AD%90-FFD700?style=for-the-badge" /></a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://buymeacoffee.com/wimlee"><img alt="Buy Me A Coffee" src="https://img.shields.io/badge/Buy_me_a_coffee-%E2%98%95-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" /></a>
+  <a href="https://buymeacoffee.com/wimlee115"><img alt="Buy Me A Coffee" src="https://img.shields.io/badge/Buy_me_a_coffee-%E2%98%95-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" /></a>
 </p>
 
 <p align="center">
@@ -479,5 +479,5 @@ This is proprietary software. Use, copying, or distribution without written perm
   <a href="https://github.com/WimLee115/ai-idle-platform">GitHub</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
   <a href="https://github.com/WimLee115/ai-idle-platform/discussions">Discussions</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
   <a href="mailto:ai-idle@outlook.com">Contact</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
-  <a href="https://buymeacoffee.com/wimlee">Support</a>
+  <a href="https://buymeacoffee.com/wimlee115">Support</a>
 </p>
