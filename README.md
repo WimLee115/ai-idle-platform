@@ -61,10 +61,10 @@ The cause? Machines running idle overnight. No insight into real consumption. Mo
 ```
     Your Machines          AI-IDLE Platform           You
     ┌─────────┐           ┌──────────────┐          ┌─────────┐
-    │ Machine │──Shelly──►│  Real-time    │          │  Save   │
-    │ Machine │──Tasmota─►│  AI Analysis  │──────────► Energy  │
-    │ Machine │──Tuya────►│  Smart Action │          │  Money  │
-    │ Machine │──MQTT────►│  Auto-Report  │          │  CO2    │
+    │ Machine │──Shelly──►│  Real-time   │          │  Save   │
+    │ Machine │──Tasmota─►│  AI Analysis │──────────► Energy  │
+    │ Machine │──Tuya────►│  Smart Action│          │  Money  │
+    │ Machine │──MQTT────►│  Auto-Report │          │  CO2    │
     └─────────┘           └──────────────┘          └─────────┘
 ```
 
