@@ -172,7 +172,7 @@ AI-IDLE is actively seeking **2 pilot locations** in the **SME metal/manufacturi
 - Comprehensive evaluation report and optimization advice after the pilot
 
 #### What you provide:
-- A production environment with at least 10 machines
+- A production environment with at least 5 machines
 - Willingness to provide feedback and collaborate
 - Device costs only (Shelly smart plugs, ~EUR 15-25 per machine)
 
