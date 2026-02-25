@@ -13,6 +13,7 @@
 </p>
 
 <p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/v1.2.1-0b7fdb?style=for-the-badge" />
   <img alt="Made in NL" src="https://img.shields.io/badge/Made_in-The_Netherlands-FF6B35?style=for-the-badge" />
   <img alt="IoT" src="https://img.shields.io/badge/Industrial-IoT-0b7fdb?style=for-the-badge" />
   <img alt="AI Powered" src="https://img.shields.io/badge/AI-Powered-7C3AED?style=for-the-badge" />
@@ -80,7 +81,7 @@ The cause? Machines running idle overnight. No insight into real consumption. Mo
 
 ## Features
 
-### Autonomous AI Agents `NEW`
+### Autonomous AI Agents
 
 4 specialized AI agents work around the clock on your energy data:
 
@@ -89,7 +90,7 @@ The cause? Machines running idle overnight. No insight into real consumption. Mo
 - **Anomaly Agent** — Triages anomalies, provides root cause analysis, scores device health
 - **Maintenance Agent** — Predicts maintenance needs, flags overdue tasks, monitors equipment health
 
-Ask questions in plain Dutch or English: *"Hoeveel energie verbruiken we nu?"* or *"Are there any anomalies?"*
+Available via the sidebar and a floating chat button on every page. Ask questions in plain Dutch or English: *"Hoeveel energie verbruiken we nu?"* or *"Are there any anomalies?"*
 
 ### Real-Time Monitoring
 
@@ -105,7 +106,7 @@ Ask questions in plain Dutch or English: *"Hoeveel energie verbruiken we nu?"* o
 - Appliance signature recognition for 18+ machine types
 - TensorFlow.js for on-device and server-side inference
 - Automatic cycle detection and energy predictions
-- Natural language AI chat assistant (Dutch + English)
+- Natural language AI agent chat (Dutch + English)
 
 ### 3D Digital Twin
 
@@ -169,6 +170,8 @@ AI-IDLE is actively seeking **2 pilot locations** in the **SME metal/manufacturi
 - Complete setup and onboarding by the developer
 - All software updates and new AI features during the pilot
 - Direct communication line with the development team
+- **Direct influence on the product roadmap** — your feature requests get priority
+- First access to new features before general release
 - Comprehensive evaluation report and optimization advice after the pilot
 
 #### What you provide:

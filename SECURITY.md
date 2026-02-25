@@ -10,6 +10,14 @@ Instead, please email: **[ai-idle@outlook.com](mailto:ai-idle@outlook.com)**
 
 We will acknowledge receipt within 48 hours and work with you to understand and address the issue.
 
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.2.x   | :white_check_mark: |
+| 1.1.x   | :white_check_mark: |
+| 1.0.x   | :x:                |
+
 ## Scope
 
 This security policy covers the AI-IDLE platform, including:

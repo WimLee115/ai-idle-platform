@@ -13,6 +13,7 @@
 </p>
 
 <p align="center">
+  <img alt="Versie" src="https://img.shields.io/badge/v1.2.1-0b7fdb?style=for-the-badge" />
   <img alt="Made in NL" src="https://img.shields.io/badge/Gemaakt_in-Nederland-FF6B35?style=for-the-badge" />
   <img alt="IoT" src="https://img.shields.io/badge/Industrieel-IoT-0b7fdb?style=for-the-badge" />
   <img alt="AI" src="https://img.shields.io/badge/AI-Powered-7C3AED?style=for-the-badge" />
@@ -77,7 +78,7 @@ De oorzaak? Machines die 's nachts onnodig draaien. Geen inzicht in het werkelij
 
 ## Functionaliteiten
 
-### Autonome AI-Agents `NIEUW`
+### Autonome AI-Agents
 
 4 gespecialiseerde AI-agents werken dag en nacht aan je energiedata:
 
@@ -86,7 +87,7 @@ De oorzaak? Machines die 's nachts onnodig draaien. Geen inzicht in het werkelij
 - **Anomalie Agent** — Triageert anomalieen, biedt oorzaakanalyse, scoort apparaatgezondheid
 - **Onderhoud Agent** — Voorspelt onderhoudsbehoefte, signaleert achterstallige taken, bewaakt apparatuur
 
-Stel vragen in gewoon Nederlands of Engels: *"Hoeveel energie verbruiken we nu?"* of *"Zijn er anomalieen?"*
+Bereikbaar via de sidebar en een zwevende chatknop op elke pagina. Stel vragen in gewoon Nederlands of Engels: *"Hoeveel energie verbruiken we nu?"* of *"Zijn er anomalieen?"*
 
 ### Real-Time Monitoring
 
@@ -102,7 +103,7 @@ Stel vragen in gewoon Nederlands of Engels: *"Hoeveel energie verbruiken we nu?"
 - Apparaathandtekeningherkenning voor 18+ machinetypen
 - TensorFlow.js voor on-device en server-side inferentie
 - Automatische cyclusdetectie en energievoorspellingen
-- Natuurlijke taal AI-chatassistent (Nederlands + Engels)
+- Natuurlijke taal AI-agent chat (Nederlands + Engels)
 
 ### 3D Digital Twin
 
@@ -166,10 +167,12 @@ AI-IDLE zoekt actief **2 pilotlocaties** in het **MKB metaal/productiesector** o
 - Complete setup en onboarding door de ontwikkelaar
 - Alle software-updates en nieuwe AI-features tijdens de pilot
 - Directe communicatielijn met het development team
+- **Directe invloed op de product-roadmap** — jouw feature requests krijgen prioriteit
+- Eerste toegang tot nieuwe functies voor de algemene release
 - Uitgebreid evaluatierapport en optimalisatieadvies na afloop
 
 #### Wat je bijdraagt:
-- Een productieomgeving met minimaal 10 machines
+- Een productieomgeving met minimaal 5 machines
 - Bereidheid om feedback te geven en samen te werken
 - Alleen de apparaatkosten (Shelly smart plugs, ca. EUR 15-25 per machine)
 
