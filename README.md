@@ -1,243 +1,98 @@
 <p align="center">
-  <img src="docs/assets/ai-idle-banner.svg" alt="AI-IDLE" width="600" />
+  <img src="docs/assets/logo-lachend.png" alt="AI-IDLE Logo – Slimme Plug met Glimlach" width="220"/>
+  <br><br>
+  <h1>AI-IDLE</h1>
+  <h3>Intelligent Industrieel Energiemanagement Platform</h3>
+  <p><strong>Stop energieverspilling. Bespaar tot 30% met AI die 24/7 meekijkt en optimaliseert.</strong></p>
+  
+  <p>
+    <a href="https://ai-idle.nl"><img src="https://img.shields.io/badge/Live%20Site-ai--idle.nl-0d6efd?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"></a>
+    <a href="https://ai-idle.nl?lang=en"><img src="https://img.shields.io/badge/English%20Version-available-success?style=for-the-badge" alt="EN"></a>
+    <a href="https://github.com/WimLee115/ai-idle-platform/stargazers"><img src="https://img.shields.io/github/stars/WimLee115/ai-idle-platform?style=for-the-badge&color=yellow" alt="Stars"></a>
+    <a href="mailto:ai-idle@outlook.com?subject=AI-IDLE%20Pilot%20Interesse"><img src="https://img.shields.io/badge/Word%20Pilot%20Partner-mail%20nu-ff6b00?style=for-the-badge&logo=gmail&logoColor=white" alt="Pilot Aanvragen"></a>
+  </p>
 </p>
 
-<h1 align="center">AI-IDLE</h1>
+## Waarom AI-IDLE? 🔥
 
-<h3 align="center">
-  Stop wasting energy. Start saving with AI.
-</h3>
+Fabrieken verspillen **15-30%** energie aan idle machines, verborgen lekken en late facturen.  
+AI-IDLE lost dit op – permanent – met slimme plugs en autonome AI.
+
+| Zonder AI-IDLE                  | Met AI-IDLE                              |
+|---------------------------------|------------------------------------------|
+| Maandelijkse verrassingsrekeningen | Real-time inzicht elke **10 seconden**   |
+| Handmatische rondes             | 24/7 autonome AI-monitoring              |
+| Reactief onderhoud              | Voorspellend + anomaliedetectie          |
+| Geen per-machine kosteninzicht  | EPEX-prijzen + load-shifting per machine |
+| Plaatje op papier               | Interactieve **3D Digital Twin**         |
 
 <p align="center">
-  <em>The intelligent energy management platform that cuts industrial energy waste by up to 30%<br/>through real-time monitoring, autonomous AI agents, and smart automation.</em>
+  <img src="docs/assets/how-it-works.gif" width="800" alt="Hoe AI-IDLE werkt: Plug → AI → Besparing"/>
+  <br><em>Van plug-inpluggen tot autonome besparing in 3 stappen</em>
 </p>
+
+## Hoe het werkt (in 3 stappen)
+
+1. **Inpluggen** → Goedkope smart plugs (Shelly/Tuya/Tasmota, €15-25/stuk) op machines. Geen downtime.  
+2. **AI monitort & leert** → Data elke 10s → herkent 18+ machinetypen automatisch → detecteert idle, anomalieën, voorspelt verbruik.  
+3. **Jij bespaart automatisch** → Dashboard, AI-chat (NL/EN), rapporten, load-shifting op goedkope uren.
+
+## Kernfuncties – Powered by 4 AI-Agents
+
+| Icon | Agent / Feature                  | Wat het doet                                      | Jouw voordeel                          |
+|------|----------------------------------|---------------------------------------------------|----------------------------------------|
+| 🧠   | **4 Autonome AI-Agents**        | Energy, Cost, Anomaly, Maintenance – 24/7 actief | Volautomatische optimalisatie & alerts |
+| 📊   | **Real-time Dashboard**         | WebSocket live, sparklines, widgets, TV-casting  | Altijd up-to-date, overal toegankelijk |
+| 🏭   | **Interactieve 3D Digital Twin**| Three.js fabrieksvloer – klik voor live metrics   | Visueel inzicht in je hele productie   |
+| 🤖   | **Apparaat-herkenning**         | ML herkent CNC, pomp, compressor etc. automatisch| Onboarding in minuten                  |
+| 🌍   | **CO₂ & Duurzaamheid**          | Real-time tracking, gamificatie, CSRD-rapporten   | Bespaar geld én voldoe aan wetgeving  |
+| 💰   | **EPEX Spotprijzen**            | Dynamische prijzen → shift verbruik slim          | Extra 5-15% kostenbesparing            |
+| 🔒   | **Enterprise-ready**            | Multi-tenant, MFA, RBAC, Docker, APIs             | Veilig, schaalbaar, integreerbaar      |
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/v1.2.1-0b7fdb?style=for-the-badge" />
-  <img alt="Made in NL" src="https://img.shields.io/badge/Made_in-The_Netherlands-FF6B35?style=for-the-badge" />
-  <img alt="IoT" src="https://img.shields.io/badge/Industrial-IoT-0b7fdb?style=for-the-badge" />
-  <img alt="AI Powered" src="https://img.shields.io/badge/AI-Powered-7C3AED?style=for-the-badge" />
-  <img alt="Green Tech" src="https://img.shields.io/badge/Green-Tech-4CAF50?style=for-the-badge" />
+  <img src="docs/assets/3d-twin-screenshot.png" width="600" alt="Interactieve 3D Digital Twin met live status"/>
+  <br><em>Klik op een machine → zie direct verbruik, status en voorspellingen</em>
 </p>
 
-<p align="center">
-  <a href="#-why-ai-idle">Why AI-IDLE</a>&nbsp;&bull;&nbsp;
-  <a href="#-how-it-works">How It Works</a>&nbsp;&bull;&nbsp;
-  <a href="#-features">Features</a>&nbsp;&bull;&nbsp;
-  <a href="#-pilot-program">Pilot Program</a>&nbsp;&bull;&nbsp;
-  <a href="#-support">Support</a>
-</p>
+## Technologie stack (2026-proof)
 
----
+- **Frontend** → React 19 • TypeScript • Three.js • Tailwind  
+- **Backend** → Node.js/Express • Prisma • PostgreSQL • Redis • BullMQ  
+- **AI/ML** → TensorFlow.js (edge/server) • 4-laags anomaliedetectie  
+- **Integraties** → MQTT • Shelly/Tuya • EPEX API • Slack/Teams/Webhook  
+- **Deployment** → Docker • Prometheus/Grafana monitoring  
 
-<br/>
+## Pilot-programma – Slechts 2 plekken beschikbaar! 🚀
 
-<p align="center">
-  <img src="docs/assets/screenshots/dashboard-overview.png" alt="AI-IDLE Dashboard" width="800" />
-</p>
+We zoeken **2 MKB-pilots** in metaal/productie (min. 5-10 machines).  
 
-<br/>
+**Gratis voor jou:**
+- Volledige installatie & onboarding door developer  
+- Alle updates + nieuwe features tijdens pilot  
+- Persoonlijke support & roadmap-invloed  
+- ROI-rapport met bewezen besparingen  
 
-## Why AI-IDLE
+**Jij levert:**
+- Productieomgeving  
+- Feedback  
+- Alleen apparaatkosten (€15-25 per plug)  
 
-Manufacturing companies waste an average of **15-30% of their energy** — that is money and CO2 going straight out the window.
+**Geen verplichtingen – start met een vrijblijvend gesprek.**
 
-The cause? Machines running idle overnight. No insight into real consumption. Monthly energy bills that arrive too late to act on. Manual walkthroughs that miss what the human eye cannot see.
+→ **[Mail nu voor pilot](mailto:ai-idle@outlook.com?subject=AI-IDLE%20Pilot%20Interesse&body=Bedrijf:%0ANaam:%0A Aantal%20machines:%0ABeschrijf%20kort%20je%20energie-uitdagingen:)**
 
-**AI-IDLE fixes this.** Permanently.
+## Bekijk & ervaar het zelf
 
-| Without AI-IDLE | With AI-IDLE |
-|----------------|-------------|
-| Monthly energy bill surprises | Real-time insights every 10 seconds |
-| Manual floor inspections | AI that monitors 24/7, autonomously |
-| Guesswork and spreadsheets | Data-driven decisions with AI agents |
-| Reactive "fix when broken" | Predictive maintenance before failures |
-| 2D floor plans on paper | Interactive 3D Digital Twin |
-| No idea what costs what | EPEX spot pricing integration per machine |
+→ **[ai-idle.nl](https://ai-idle.nl)** – video's, live demo-elementen, uitgebreide info  
+→ **[Engelse site](https://ai-idle.nl?lang=en)**  
+→ **[GitHub Discussions](https://github.com/WimLee115/ai-idle-platform/discussions)** – stel vragen, deel ideeën  
 
----
+## Contact & support
 
-## How It Works
+- **E-mail** → [ai-idle@outlook.com](mailto:ai-idle@outlook.com)  
+- **Pilot / Sales** → Zelfde mail (onderwerp: Pilot Interesse)  
+- **Community** → GitHub Discussions & Issues  
+- **Steun ons** → ⭐ Star dit repo • [Buy Me a Coffee](https://buymeacoffee.com/wimlee115)  
 
-```
-    Your Machines          AI-IDLE Platform           You
-    ┌─────────┐           ┌──────────────┐          ┌─────────┐
-    │ Machine │──Shelly──►│  Real-time   │          │  Save   │
-    │ Machine │──Tasmota─►│  AI Analysis │──────────► Energy  │
-    │ Machine │──Tuya────►│  Smart Action│          │  Money  │
-    │ Machine │──MQTT────►│  Auto-Report │          │  CO2    │
-    └─────────┘           └──────────────┘          └─────────┘
-```
-
-**3 simple steps:**
-
-1. **Plug in** — Connect affordable smart plugs (Shelly, Tasmota, Tuya) to your machines. Starting at ~EUR 15 per device.
-
-2. **AI monitors** — AI-IDLE collects power data every 10 seconds, detects anomalies, identifies idle machines, predicts consumption, and finds savings — all automatically.
-
-3. **You save** — Receive actionable insights, automated reports, and let the AI agents optimize your energy usage while you focus on production.
-
----
-
-## Features
-
-### Autonomous AI Agents
-
-4 specialized AI agents work around the clock on your energy data:
-
-- **Energy Agent** — Monitors real-time power consumption, detects idle machines, analyzes per department
-- **Cost Agent** — Tracks EPEX spot prices, forecasts costs, identifies savings opportunities
-- **Anomaly Agent** — Triages anomalies, provides root cause analysis, scores device health
-- **Maintenance Agent** — Predicts maintenance needs, flags overdue tasks, monitors equipment health
-
-Available via the sidebar and a floating chat button on every page. Ask questions in plain Dutch or English: *"Hoeveel energie verbruiken we nu?"* or *"Are there any anomalies?"*
-
-### Real-Time Monitoring
-
-- Live dashboard with power, cost, and trend data via WebSocket
-- Per-machine sparklines and customizable widget layout
-- Remote device control from anywhere
-- Mobile-first PWA with offline support and push notifications
-- TV casting for factory floor displays
-
-### AI & Machine Learning
-
-- 4-layer anomaly detection (statistical, ML, pattern-based, context-aware)
-- Appliance signature recognition for 18+ machine types
-- TensorFlow.js for on-device and server-side inference
-- Automatic cycle detection and energy predictions
-- Natural language AI agent chat (Dutch + English)
-
-### 3D Digital Twin
-
-- Interactive 3D factory floor with live data per machine
-- Drag-and-drop 2D layout editor
-- Color-coded status visualization (active/idle/offline)
-- Click-to-inspect for detailed metrics
-
-### Sustainability & CO2
-
-- Carbon footprint tracking with Dutch/EU emission factors
-- Scope 1/2 emissions monitoring with targets
-- Gamification with challenges, badges, and team leaderboards
-- Offset management and emissions reporting
-
-### Enterprise Ready
-
-- Multi-tenant with full data isolation
-- Role-based access (Developer/Admin/Manager/Viewer)
-- MFA/TOTP authentication
-- 7 rate limiters, AES-256 encryption, audit logging
-- REST + GraphQL + WebSocket APIs
-- Integrations: Slack, Discord, Teams, Email, Webhook, SMS
-- Automated PDF/Excel reports (daily/weekly/monthly)
-- Prometheus + Grafana monitoring
-- Docker deployment with horizontal scaling
-
----
-
-## The Numbers
-
-<table>
-<tr>
-<td align="center"><h2>243K+</h2><sub>Lines of Code</sub></td>
-<td align="center"><h2>97</h2><sub>Database Models</sub></td>
-<td align="center"><h2>21</h2><sub>AI Agent Tools</sub></td>
-<td align="center"><h2>18</h2><sub>Appliance Profiles</sub></td>
-</tr>
-<tr>
-<td align="center"><h2>841+</h2><sub>Test Files</sub></td>
-<td align="center"><h2>4</h2><sub>Autonomous Agents</sub></td>
-<td align="center"><h2>10s</h2><sub>Data Interval</sub></td>
-<td align="center"><h2>2</h2><sub>Languages (NL/EN)</sub></td>
-</tr>
-</table>
-
----
-
-## Pilot Program
-
-<table>
-<tr>
-<td>
-
-### We're looking for 2 pilot partners!
-
-AI-IDLE is actively seeking **2 pilot locations** in the **SME metal/manufacturing sector** to validate the platform in a real production environment.
-
-#### What you get — completely free:
-- Full AI-IDLE platform installation and configuration
-- Complete setup and onboarding by the developer
-- All software updates and new AI features during the pilot
-- Direct communication line with the development team
-- **Direct influence on the product roadmap** — your feature requests get priority
-- First access to new features before general release
-- Comprehensive evaluation report and optimization advice after the pilot
-
-#### What you provide:
-- A production environment with at least 5 machines
-- Willingness to provide feedback and collaborate
-- Device costs only (Shelly smart plugs, ~EUR 15-25 per machine)
-
-#### After the pilot:
-A detailed review covering energy savings achieved, ROI analysis, and optimization recommendations. Your honest feedback helps us build the best energy management platform in the market.
-
-</td>
-</tr>
-</table>
-
-<p align="center">
-  <br/>
-  <a href="mailto:ai-idle@outlook.com"><img alt="Contact" src="https://img.shields.io/badge/Interested%3F_Let's_talk-ai--idle%40outlook.com-0b7fdb?style=for-the-badge&logo=mail.ru&logoColor=white" /></a>
-  <br/><br/>
-  <sub>No commitment needed — let's start with a conversation.</sub>
-</p>
-
----
-
-## Support
-
-AI-IDLE is built with one mission: **make industrial energy waste a thing of the past**.
-
-Every kilowatt-hour saved means less CO2, lower costs, and a more sustainable industry. If you believe in that mission, here's how you can help:
-
-<p align="center">
-  <a href="https://github.com/WimLee115/ai-idle-platform/stargazers"><img alt="Star" src="https://img.shields.io/badge/Star_this_project-%E2%AD%90-FFD700?style=for-the-badge" /></a>
-  &nbsp;&nbsp;
-  <a href="https://buymeacoffee.com/wimlee115"><img alt="Coffee" src="https://img.shields.io/badge/Buy_me_a_coffee-%E2%98%95-FF813F?style=for-the-badge&logo=buy-me-a-coffee&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  A <strong>star</strong> helps us reach more manufacturing companies who waste energy every day.<br/>
-  A <strong>coffee</strong> fuels the late-night engineering sessions that make this platform better.
-</p>
-
----
-
-## Contact
-
-| | |
-|-|-|
-| **Email** | [ai-idle@outlook.com](mailto:ai-idle@outlook.com) |
-| **Pilot inquiries** | [ai-idle@outlook.com](mailto:ai-idle@outlook.com) |
-| **Discussions** | [GitHub Discussions](https://github.com/WimLee115/ai-idle-platform/discussions) |
-| **Issues** | [GitHub Issues](https://github.com/WimLee115/ai-idle-platform/issues) |
-
----
-
-## License
-
-Copyright (c) 2024-2026 AI-IDLE. All rights reserved.
-
-AI-IDLE is proprietary software. Contact [ai-idle@outlook.com](mailto:ai-idle@outlook.com) for licensing and partnership opportunities.
-
----
-
-<p align="center">
-  <sub>Built with dedication in the Netherlands</sub><br/>
-  <sub>Making industrial energy waste a thing of the past, one machine at a time.</sub>
-  <br/><br/>
-  <a href="mailto:ai-idle@outlook.com">Contact</a>&nbsp;&bull;&nbsp;
-  <a href="https://buymeacoffee.com/wimlee115">Support</a>&nbsp;&bull;&nbsp;
-  <a href="https://github.com/WimLee115/ai-idle-platform/discussions">Community</a>
-</p>
+Gebouwd in Nederland 🇳🇱 – met passie voor slimme, duurzame industrie.  
+*Copyright © 2024-2026 AI-IDLE. Propriëtair – partnerships/licenties via mail.*
