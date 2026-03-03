@@ -55,7 +55,7 @@
   <!-- Version badge -->
   <rect x="460" y="55" width="110" height="24" rx="12" fill="#10B981" opacity="0.2"/>
   <rect x="460" y="55" width="110" height="24" rx="12" fill="none" stroke="#10B981" stroke-width="1"/>
-  <text x="515" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#10B981" text-anchor="middle">v1.2.1</text>
+  <text x="515" y="72" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#10B981" text-anchor="middle">v1.8.0</text>
 
   <!-- Decorative elements -->
   <circle cx="550" cy="120" r="3" fill="#3B82F6" opacity="0.5"/>
